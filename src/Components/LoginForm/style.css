@@ -1,0 +1,63 @@
+.login-form {
+  text-align: center;
+}
+
+.login-form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.login-form p {
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-check-input {
+  margin-right: 0.5rem;
+}
+
+.forgot-password {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.btn {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+}
+
+.btn-google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+}
+
+.btn-google .ico {
+  margin-right: 0.5rem;
+  color: #007bff 
+}
+
+.sign-up-text {
+  font-size: 0.9rem;
+}

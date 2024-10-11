@@ -1,0 +1,41 @@
+/* Linha roxa no topo da navbar */
+.navbar-line-top {
+    width: 100%;
+    height: 30px;
+    background-color: #4f2eff; /* Cor roxa */
+  }
+  
+  .navbar-custom {
+    background-color: white;
+    color: #000;
+    position: relative;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: black;
+  }
+  
+  .ml-auto {
+    margin-left: auto;
+  }
+  
+  .profile-picture {
+    width: 40px;
+    height: 40px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    border: 2px solid white;
+    cursor: pointer;
+  }
+  
+  .no-arrow .dropdown-toggle::after {
+    display: none !important;  /* Remove a seta do dropdown */
+  }
+  
+  /* Ajustes para o dropdown */
+  .navbar .dropdown-menu {
+    right: 0;
+    left: auto;
+  }
+  
