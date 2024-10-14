@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 import './style.css';
+import avatar from "../../assets/user.png"
 
 import { useAuth } from '../../utils/AuthContext';
 
@@ -25,7 +26,7 @@ const CustomNavbar = () => {
             <NavDropdown
               title={
                 <div className="profile-picture">
-                  {/* Aqui você pode substituir pela imagem de perfil */}
+                  <img src={avatar} alt="" />
                 </div>
               }
               id="profile-dropdown"
